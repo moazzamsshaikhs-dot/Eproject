@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to Home</title>
+  <link rel="icon" href="./images/ChatGPT Image Oct 1, 2025, 05_27_31 PM.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="./other-files/home.css">
+</head>
+<body>
+  <header>
+    <!-- Splash Screen -->
+    <div id="splash"><img src="./images/ChatGPT Image Oct 1, 2025, 05_27_31 PM.png" alt=""></div>
+
+    <!-- navbar -->
+    <nav class="navbar">
+        <div class="navbar-container" id="navbar-container">
+            <div class="div">
+                    <div class="imag">
+                        <img src="./images/5aea9365-67a9-4bc3-884c-087a0b24d8b5_removalai_preview.png" alt="Playful Outing Games">
+                    </div>
+                    <div class="content">
+                        <a href="" class="navbar-logo animation">Playful Outing Games</a>
+                        <span>Select and Enjoy your Games</span>
+                    </div>
+                </div>
+                <button class="navbar-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+                <ul class="navbar-menu">
+                  <div class="visitor-counter">
+            <small>Visitors: <span id="visitorCount">0</span></small>
+          </div>
+                    <li><a href="./home.html"><span class="fa-solid fa-home " > </span> Home</a></li>
+                    <li><a href="../practice-1/index.html"><span class="fa-solid fa-gamepad " > </span>  Search Game</a></li>
+                    <li><a href="../about/index.html"><span class="fa-solid fa-circle-exclamation" > </span>  About</a></li>
+                    <li><a href="../faq/inde.html"><span class="fa-solid fa-clipboard-question"></span> F.A.Q</a></li>
+                    <li><a href="../contact/index.html"><span class="fa-solid fa-phone " > </span>  Contact</a></li>
+                </ul>
+        </div>
+    </nav>
+  </header>
+  <div class="slider-container">
+    <div class="slider-wrapper">
+      <div class="slide"><img src="https://picsum.photos/1200/800?random=1" alt="Slide 1" /></div>
+      <div class="slide"><img src="https://picsum.photos/1200/800?random=2" alt="Slide 2" /></div>
+      <div class="slide"><img src="https://picsum.photos/1200/800?random=3" alt="Slide 3" /></div>
+      <div class="slide"><img src="https://picsum.photos/1200/800?random=4" alt="Slide 4" /></div>
+      <div class="slide"><img src="https://picsum.photos/1200/800?random=5" alt="Slide 5" /></div>
+      <div class="slide"><img src="https://picsum.photos/1200/800?random=6" alt="Slide 6" /></div>
+      <div class="slide"><img src="https://picsum.photos/1200/800?random=7" alt="Slide 7" /></div>
+      <div class="slide"><img src="https://picsum.photos/1200/800?random=8" alt="Slide 8" /></div>
+    </div>
+
+    <button class="nav-arrow prev" onclick="prevSlide()">❮</button>
+    <button class="nav-arrow next" onclick="nextSlide()">❯</button>
+
+    <div class="slider-nav">
+      <button onclick="goToSlide(0)" data-active="true"></button>
+      <button onclick="goToSlide(1)"></button>
+      <button onclick="goToSlide(2)"></button>
+      <button onclick="goToSlide(3)"></button>
+      <button onclick="goToSlide(4)"></button>
+      <button onclick="goToSlide(5)"></button>
+      <button onclick="goToSlide(6)"></button>
+      <button onclick="goToSlide(7)"></button>
+    </div>
+  </div>
+
+  <!-- section buttons -->
+  <section class="fade-left">
+    <div class="working" id="buttons-section">
+      <!-- Buttons will be loaded from JSON -->
+    </div>
+  </section>
+
+  <!-- next section library -->
+  <section>
+    <h1 class="title fade-up">Resently Increament your Games</h1>
+    <div class="image-liabrary blur-in" id="image-library">
+      <!-- Images will be loaded from JSON -->
+    </div>
+  </section>
+
+  <!-- next section library -->
+  <section >
+    <h1 class="title fade-up">Top Games</h1>
+    <div class="image-liabrary blur-in" id="image-librarys">
+      <!-- Images will be loaded from JSON -->
+    </div>
+  </section>
+
+  <!-- Demographics Section -->
+  <section class="section-container blur-in" id="select">
+    <div class="category-title">
+      <h2 id="demographics-title" class="title"></h2>
+    </div>
+    <div class="category-container" id="demographics-cards">
+      <!-- Cards will be loaded from JSON -->
+    </div>
+    <form class="newsletter bounce-in" onsubmit="event.preventDefault()" id="newsletter-form">
+      <!-- Newsletter form will be loaded from JSON -->
+    </form>
+  </section>
+
+  <!-- footer -->
+  <footer class="fade-left">
+    <div class="blob blob1"></div>
+    <div class="blob blob2"></div>
+
+    <div class="footer-grid">
+      <!-- Brand -->
+      <div class="col">
+        <h3>PlayfulOuting - Games</h3>
+        <p style="color:var(--mute);font-size:.9rem;font-size:1.2rem;">Crafting sleek digital experiences for the next
+          generation.</p>
+        <div class="socials">
+          <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="#" aria-label="Dribbble"><i class="fab fa-dribbble"></i></a>
+        </div>
+      </div>
+
+      <!-- Product -->
+      <div class="col">
+        <h3>Events</h3>
+        <a href="../contact/index.html">Contact</a>
+        <a href="../practice-1/index.html">Games Search</a>
+        <a href="../about/index.html">Overview</a>
+      </div>
+
+      <!-- Resources -->
+      <div class="col">
+        <h3>Resources</h3>
+        <!-- <a href="#"></a> -->
+        <a href="../faq/inde.html">FAQ</a>
+        <a href="../about/index.html">Support</a>
+        <a href="../practice-1/index.html">Games category</a>
+      </div>
+
+      <!-- Company -->
+      <div class="col">
+        <h3>Company</h3>
+        <a href="../about/index.html">About</a>
+        <a href="../about/index.html">Features</a>
+        <a href="../about/index.html">Careers</a>
+        <a href="../about/index.html">Future Enhansment</a>
+        <a href="../about/index.html">Maintainance</a>
+      </div>
+
+      <!-- Newsletter -->
+      <div class="col">
+        <h3>Stay Updated</h3>
+        <p style="color:var(--mute);" class="col-p">Get the latest drops &amp; news.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Enhanced Ticker -->
+  <div class="ticker fade-right">
+    <div class="ticker-container">
+      <div class="ticker-content">
+        <div>
+          <i class="fas fa-map-marker-alt"></i>
+          <span id="location">Detecting location...</span>
+        </div>
+
+        <div class="news-ticker">
+          <div class="ticker-text">Loading latest updates...</div>
+        </div>
+
+        <div>
+          <i class="fas fa-clock"></i>
+          <span id="datetime">Loading date and time...</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./other-files/script.js"></script>
+  
+</body>
+
+</html>

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game Details</title>
+  <link rel="icon" href="./images/ChatGPT Image Oct 1, 2025, 05_27_31 PM.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="./other-files/details.css">
+  <style>
+
+  </style>
+</head>
+
+<body>
+  <header>
+    <!-- navbar -->
+    <nav class="navbar">
+      <div class="navbar-container" id="navbar-container">
+        <div class="div">
+          <div class="imag">
+            <img src="./images/5aea9365-67a9-4bc3-884c-087a0b24d8b5_removalai_preview.png" alt="Playful Outing Games">
+          </div>
+          <div class="content">
+            <a href="" class="navbar-logo animation">Playful Outing Games</a>
+            <span>Select and Enjoy your Games</span>
+          </div>
+        </div>
+        <button class="navbar-toggle">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+        <ul class="navbar-menu">
+          <li><a href="../practice/home.html"><span class="fa-solid fa-home "> </span> Home</a></li>
+          <li><a href="../practice-1/index.html"><span class="fa-solid fa-gamepad "> </span> Search Game</a></li>
+          <li><a href="../about/index.html"><span class="fa-solid fa-circle-exclamation"> </span> About</a></li>
+          <li><a href="../faq/inde.html"><span class="fa-solid fa-clipboard-question"></span> F.A.Q</a></li>
+          <li><a href="../contact/index.html"><span class="fa-solid fa-phone "> </span> Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <section>
+    <div class="container" id="cards-container">
+      <!-- Cards content loaded from JSON -->
+    </div>
+  </section>
+
+  <!-- Modal for game details -->
+  <div class="modal-overlay" id="modal-overlay">
+    <div class="modal-content">
+      <button class="modal-close" id="modal-close">&times;</button>
+      <div class="modal-media">
+        <div class="modal-image-container">
+          <img id="modal-image" class="modal-image" src="" alt="Game Image">
+        </div>
+        <div class="modal-video-container">
+          <video id="modal-video" class="modal-video" controls src="">
+            <!-- <source src="" type="video/mp4">
+                        Your browser does not support the video tag. -->
+          </video>
+        </div>
+      </div>
+      <div class="modal-details">
+        <h2 class="modal-title" id="modal-title"></h2>
+        <p class="modal-description" id="modal-description"></p>
+        <h3 class="h3">Instructions</h3>
+        <p class="modal-instructions" id="modal-instructions"></p>
+        <div class="modal-info">
+          <div class="info-item">
+            <span class="info-label">Game Timing</span>
+            <span class="info-value" id="modal-timing"></span>
+          </div>
+          <div class="info-item">
+            <span class="info-label">Player Count</span>
+            <span class="info-value" id="modal-players"></span>
+          </div>
+          <div class="info-item">
+            <span class="info-label">Age Group</span>
+            <span class="info-value" id="modal-age"></span>
+          </div>
+          <div class="info-item">
+            <span class="info-label">Difficulty</span>
+            <span class="info-value" id="modal-difficulty"></span>
+          </div>
+        </div>
+        <div class="modal-rating">
+          <span class="info-label">Rating</span>
+          <div class="rating-star" id="modal-rating"></div>
+        </div>
+        <button class="modal-contact" id="modal-download">Download Documentation</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Fullscreen modal for media -->
+  <div class="modal-fullscreen" id="fullscreen-modal">
+    <button class="fullscreen-close" id="fullscreen-close">&times;</button>
+    <img id="fullscreen-image" class="fullscreen-media" src="" alt="Fullscreen Image">
+    <video id="fullscreen-video" class="fullscreen-media" controls style="display: none;">
+      <source src="" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <!-- footer -->
+  <footer class="fade-left">
+    <div class="blob blob1"></div>
+    <div class="blob blob2"></div>
+
+    <div class="footer-grid">
+      <!-- Brand -->
+      <div class="col">
+        <h3>PlayfulOuting - Games</h3>
+        <p style="color:var(--mute);font-size:.9rem;font-size:1.2rem;">Crafting sleek digital experiences for the next
+          generation.</p>
+        <div class="socials">
+          <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="#" aria-label="Dribbble"><i class="fab fa-dribbble"></i></a>
+        </div>
+      </div>
+
+      <!-- Product -->
+      <div class="col">
+        <h3>Events</h3>
+        <a href="../contact/index.html">Contact</a>
+        <a href="../practice-1/index.html">Games Search</a>
+        <a href="../about/index.html">Overview</a>
+      </div>
+
+      <!-- Resources -->
+      <div class="col">
+        <h3>Resources</h3>
+        <!-- <a href="#"></a> -->
+        <a href="../faq/inde.html">FAQ</a>
+        <a href="../about/index.html">Support</a>
+        <a href="../practice-1/index.html">Games category</a>
+      </div>
+
+      <!-- Company -->
+      <div class="col">
+        <h3>Company</h3>
+        <a href="../about/index.html">About</a>
+        <a href="../about/index.html">Features</a>
+        <a href="../about/index.html">Careers</a>
+        <a href="../about/index.html">Future Enhansment</a>
+        <a href="../about/index.html">Maintainance</a>
+      </div>
+
+      <!-- Newsletter -->
+      <div class="col">
+        <h3>Stay Updated</h3>
+        <p style="color:var(--mute);" class="col-p">Get the latest drops &amp; news.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./other-files/details.js"></script>
+</body>
+
+</html>

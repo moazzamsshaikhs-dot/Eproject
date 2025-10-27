@@ -1,0 +1,44 @@
+{
+  "installation": {
+    "title": "Installation & Setup",
+    "sections": [
+      {
+        "title": "Prerequisites",
+        "items": [
+          "Modern web browser (Chrome, Firefox, Safari, Edge)",
+          "Local server for JSON data loading (optional)",
+          "Text editor for code modifications"
+        ]
+      },
+      {
+        "title": "Quick Start",
+        "items": [
+          "Download project files",
+          "Open index.html in web browser",
+          "For local development, use live server extension",
+          "Modify game data in data/games.json",
+          "Customize styles in other-files/ directory"
+        ]
+      },
+      {
+        "title": "Customization Guide",
+        "items": [
+          "Colors: Update CSS variables in :root selector",
+          "Content: Modify JSON files for game data",
+          "Images: Replace images in images/ folder",
+          "Text Content: Edit HTML files directly"
+        ]
+      },
+      {
+        "title": "Browser Compatibility",
+        "items": [
+          "Chrome 90+",
+          "Firefox 88+",
+          "Safari 14+",
+          "Edge 90+",
+          "Mobile browsers (iOS Safari, Chrome Mobile)"
+        ]
+      }
+    ]
+  }
+}

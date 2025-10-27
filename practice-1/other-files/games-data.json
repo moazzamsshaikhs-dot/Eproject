@@ -1,0 +1,464 @@
+{
+    "games": [
+        {
+            "id": 1,
+            "name": "Indoor kids Games",
+            "categories": "indoor kids",
+            "ageGroup": {
+                "min": 10,
+                "max": 60,
+                "label": "All Ages"
+            },
+            "players": {
+                "min": 4,
+                "max": 20,
+                "ideal": 8
+            },
+            "materials": [
+                {
+                    "item": "Smartphone",
+                    "optional": false
+                },
+                {
+                    "item": "Speaker",
+                    "optional": true
+                }
+            ],
+            "time": {
+                "preparation": "5 mins",
+                "duration": "30-60 mins"
+            },
+            "difficulty": "Easy",
+            "instructions": "Welcome to a world of imagination and fun! From creative puzzles to exciting board games,every activity is a new adventure waiting indoors.Let the playful learning begin!",
+            "classname": "indoor-kids",
+            "frontname": "Mouse Enter",
+            "detail": "View Details",
+            "variations": [
+                "Theme-based",
+                "English songs"
+            ],
+            "safetyTips": [
+                "Ensure proper space"
+            ],
+            "media": {
+                "demoVideo": "antakshari.mp4",
+                "instructionDoc": "antakshari.docx",
+                "images": [
+                    "https://cdn-blog.findmykids.org/2025/03/Portrait-of-two-boys-building-pillow-fort-in-room-with-boxes-while-family-moving-in-to-new-house-copy-space.jpg"
+                ]
+            },
+            "tags": [
+                "singing",
+                "bollywood",
+                "team"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Outdoor kids Games",
+            "categories": "outdoor kids",
+            "ageGroup": {
+                "min": 6,
+                "max": 80,
+                "label": "All Ages"
+            },
+            "players": {
+                "min": 5,
+                "max": 100,
+                "ideal": 20
+            },
+            "materials": [
+                {
+                    "item": "Tambola tickets",
+                    "optional": false
+                },
+                {
+                    "item": "Number chits",
+                    "optional": false
+                },
+                {
+                    "item": "Marker pens",
+                    "optional": false
+                }
+            ],
+            "time": {
+                "preparation": "10 mins",
+                "duration": "45-90 mins"
+            },
+            "difficulty": "Easy",
+            "instructions": "Welcome, young explorers, to the world of sunshine and play! Run, jump, and discover games that build strength and friendship.Every day is a new chance for a grand outdoor adventure.Let's get active and have a blast!",
+            "classname": "outdoor-kids",
+            "frontname": "Physical",
+            "detail": "View Details",
+            "variations": [
+                "Different patterns",
+                "Theme tambola"
+            ],
+            "safetyTips": [
+                "Good lighting for elderly"
+            ],
+            "media": {
+                "demoVideo": "tambola.mp4",
+                "instructionDoc": "tambola.docx",
+                "images": [
+                    "https://www.bookmyballoons.in/wp-content/uploads/2017/09/Indoor-Balloon-Games-for-Kids.jpg"
+                ]
+            },
+            "tags": [
+                "numbers",
+                "luck",
+                "family"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Indoor Male Games",
+            "categories": "indoor male",
+            "ageGroup": {
+                "min": 8,
+                "max": 50,
+                "label": "Kids to Adults"
+            },
+            "players": {
+                "min": 4,
+                "max": 22,
+                "ideal": 11
+            },
+            "materials": [
+                {
+                    "item": "Cricket bat",
+                    "optional": false
+                },
+                {
+                    "item": "Ball",
+                    "optional": false
+                },
+                {
+                    "item": "Stumps",
+                    "optional": false
+                },
+                {
+                    "item": "Protective gear",
+                    "optional": true
+                }
+            ],
+            "time": {
+                "preparation": "15 mins",
+                "duration": "2-3 hours"
+            },
+            "difficulty": "Medium",
+            "instructions": "Step into the ultimate zone of strategy and skill.Challenge your mind with intense simulations and classic games.Perfect your play and dominate the indoor arena.Welcome to your cerebral playground.",
+            "variations": [
+                "Tennis ball cricket",
+                "Street cricket",
+                "Quick cricket"
+            ],
+            "safetyTips": [
+                "Use protective gear",
+                "Play in safe area away from roads"
+            ],
+            "media": {
+                "demoVideo": "cricket.mp4",
+                "instructionDoc": "cricket.docx",
+                "images": [
+                    "https://m.media-amazon.com/images/I/71vC16mUxTL._AC_UF1000,1000_QL80_.jpg"
+                ]
+            },
+            "classname": "indoor-male",
+            "frontname": "Physical",
+            "detail": "View Details",
+            "tags": [
+                "sports",
+                "team",
+                "outdoor"
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Outdoor Male Games",
+            "categories":"outdoor male",
+            "ageGroup": {
+                "min": 4,
+                "max": 12,
+                "label": "Children"
+            },
+            "players": {
+                "min": 5,
+                "max": 15,
+                "ideal": 8
+            },
+            "materials": [
+                {
+                    "item": "Chairs",
+                    "optional": false
+                },
+                {
+                    "item": "Music player",
+                    "optional": false
+                }
+            ],
+            "time": {
+                "preparation": "5 mins",
+                "duration": "15-30 mins"
+            },
+            "difficulty": "Easy",
+            "instructions": "Gear up for action, adrenaline, and pure competition! Welcome to the field where strength and strategy meet.From high-energy sports to tactical challenges, push your limits.Your next victory starts here.",
+            "variations": [
+                "Theme music",
+                "Dance moves while walking"
+            ],
+            "safetyTips": [
+                "Remove sharp objects",
+                "Supervise young children"
+            ],
+            "media": {
+                "demoVideo": "musical_chairs.mp4",
+                "instructionDoc": "musical_chairs.docx",
+                "images": [
+                    "https://www.shutterstock.com/image-photo/laughing-african-american-man-fighting-600nw-2046610952.jpg"
+                ]
+            },
+            "classname": "outdoor-male",
+            "frontname": "Physical",
+            "detail": "View Details",
+            "tags": [
+                "music",
+                "kids",
+                "fun"
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Indoor Female Games",
+            "categories": "indoor female",
+            "ageGroup": {
+                "min": 6,
+                "max": 40,
+                "label": "Kids to Young Adults"
+            },
+            "players": {
+                "min": 3,
+                "max": 30,
+                "ideal": 12
+            },
+            "materials": [
+                {
+                    "item": "Clues written on paper",
+                    "optional": false
+                },
+                {
+                    "item": "Small prizes",
+                    "optional": false
+                },
+                {
+                    "item": "Maps",
+                    "optional": true
+                }
+            ],
+            "time": {
+                "preparation": "30 mins",
+                "duration": "1-2 hours"
+            },
+            "difficulty": "Medium",
+            "instructions": "Welcome to a space of creativity and connection.Discover games that inspire, relax, and engage.From artistic designs to collaborative fun, enjoy a perfect blend of calm and challenge.Your cozy corner of entertainment awaits.",
+            "variations": [
+                "Photo treasure hunt",
+                "Puzzle-based",
+                "Night treasure hunt"
+            ],
+            "safetyTips": [
+                "Define boundaries",
+                "Adult supervision for kids"
+            ],
+            "media": {
+                "demoVideo": "treasure_hunt.mp4",
+                "instructionDoc": "treasure_hunt.docx",
+                "images": [
+                    "https://streamlinedgaming.com/wp-content/uploads/2016/12/How-to-Make-Women-Feel-Comfortable-At-Conventions-copy.png"
+                ]
+            },
+            "classname": "indoor-female",
+            "frontname": "Physical",
+            "detail": "View Details",
+            "tags": [
+                "adventure",
+                "puzzle",
+                "outdoor"
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Outdoor Female Games",
+            "categories": "outdoor female",
+            "ageGroup": {
+                "min": 6,
+                "max": 80,
+                "label": "All Ages"
+            },
+            "players": {
+                "min": 2,
+                "max": 6,
+                "ideal": 4
+            },
+            "materials": [
+                {
+                    "item": "Board game",
+                    "optional": false
+                },
+                {
+                    "item": "Dice",
+                    "optional": false
+                },
+                {
+                    "item": "Tokens",
+                    "optional": false
+                }
+            ],
+            "time": {
+                "preparation": "5 mins",
+                "duration": "30-60 mins"
+            },
+            "difficulty": "Easy",
+            "instructions": "Welcome to a vibrant world of activity and joy.Embrace games that celebrate teamwork, grace, and fun under the sun.Connect with friends and nature through sport and movement.Your active social playground is here!",
+            "variations": [
+                "Different board games",
+                "Team play"
+            ],
+            "safetyTips": [
+                "Keep small pieces away from young children"
+            ],
+            "media": {
+                "demoVideo": "board_games.mp4",
+                "instructionDoc": "board_games.docx",
+                "images": [
+                    "https://hips.hearstapps.com/hmg-prod/images/gettyimages-1415243821-66059c5bcce51.jpg"
+                ]
+            },
+            "classname": "outdoor-female",
+            "frontname": "Physical",
+            "detail": "View Details",
+            "tags": [
+                "strategy",
+                "family",
+                "indoor"
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Indoor Family Games",
+            "categories": "indoor family",
+            "ageGroup": {
+                "min": 8,
+                "max": 50,
+                "label": "Kids to Adults"
+            },
+            "players": {
+                "min": 6,
+                "max": 22,
+                "ideal": 11
+            },
+            "materials": [
+                {
+                    "item": "Football",
+                    "optional": false
+                },
+                {
+                    "item": "Goal posts",
+                    "optional": false
+                },
+                {
+                    "item": "Cones",
+                    "optional": true
+                }
+            ],
+            "time": {
+                "preparation": "10 mins",
+                "duration": "1-2 hours"
+            },
+            "difficulty": "Medium",
+            "instructions": "Welcome to the heart of the home, where memories are made!Our indoor games are designed for laughter and bonding for all ages.Gather everyone for unforgettable fun and friendly competition.Let the family game time begin!",
+            "variations": [
+                "Small-sided games",
+                "Street football"
+            ],
+            "safetyTips": [
+                "Warm up properly",
+                "Use proper footwear"
+            ],
+            "media": {
+                "demoVideo": "football.mp4",
+                "instructionDoc": "football.docx",
+                "images": [
+                    "https://www.toykingdom.com.ph/cdn/shop/articles/indoor_family_games_800x.png?v=1693451134"
+                ]
+            },
+            "classname": "indoor-family",
+            "frontname": "Physical",
+            "detail": "View Details",
+            "tags": [
+                "sports",
+                "team",
+                "outdoor"
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Outdoor Family Games",
+            "categories": "outdoor family",
+            "ageGroup": {
+                "min": 12,
+                "max": 80,
+                "label": "Teens to Adults"
+            },
+            "players": {
+                "min": 1,
+                "max": 20,
+                "ideal": 10
+            },
+            "materials": [
+                {
+                    "item": "Yoga mat",
+                    "optional": false
+                },
+                {
+                    "item": "Comfortable clothes",
+                    "optional": false
+                },
+                {
+                    "item": "Instruction video",
+                    "optional": true
+                }
+            ],
+            "time": {
+                "preparation": "5 mins",
+                "duration": "30-60 mins"
+            },
+            "difficulty": "Easy",
+            "instructions": "Welcome to the great outdoors, where family bonds grow stronger!Our games are perfect for creating sunny-day memories together.Share laughter, teamwork, and healthy competition in the fresh air.Adventure is better when shared",
+            "variations": [
+                "Power yoga",
+                "Meditation",
+                "Group yoga"
+            ],
+            "safetyTips": [
+                "Don't push beyond limits",
+                "Consult doctor if health issues"
+            ],
+            "media": {
+                "demoVideo": "yoga.mp4",
+                "instructionDoc": "yoga.docx",
+                "images": [
+                    "https://livewelloutdoors.com/wp-content/uploads/2023/08/LWO-Blog-Images-36.png"
+                ]
+            },
+            "classname": "outdoor-family",
+            "frontname": "Physical",
+            "detail": "View Details",
+            "tags": [
+                "fitness",
+                "relaxation",
+                "indoor"
+            ]
+        }
+    ]
+}

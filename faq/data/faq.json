@@ -1,0 +1,102 @@
+{
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "sections": [
+      {
+        "id": "section-1",
+        "header": " What is PlayfulOutings?",
+        "content": "PlayfulOutings is a comprehensive online platform that provides detailed information about various indoor and outdoor games for all age groups. We offer game instructions, materials required, duration, and other essential details to help you plan fun activities."
+      },
+      {
+        "id": "section-2",
+        "header": " Is PlayfulOutings completely free to use?",
+        "content": "Yes, absolutely! Our platform is 100% free to use. You can access all games, instructions, and features without any cost or subscription."
+      },
+      {
+        "id": "section-3",
+        "header": "Do I need to create an account to use the website?",
+        "content": "No, account creation is not required. You can immediately start browsing and using all the games and features available on our platform."
+      },
+      {
+        "id": "section-4",
+        "header": "How do I find games for specific occasions?",
+        "content": "You can use our category filtering system on the Games page. Filter by: Indoor/Outdoor games, Kids/Family games, Number of players, Game duration, Difficulty level etc."
+      },
+      {
+        "id": "section-5",
+        "header": "Can I search for specific games?",
+        "content": "Yes! Use the search functionality on the Games page to find games by name, materials required, or specific keywords"
+      },
+      {
+        "id": "section-6",
+        "header": "How do I get detailed instructions for a game?",
+        "content": "Simply click on any game card to open the detailed game page where you'll find: Complete materials list, Step-by-step instructions, Time requirements, Player count, Downloadable guides etc."
+      },
+      {
+        "id": "section-7",
+        "header": "How often are new games added?",
+        "content": "We regularly update our game collection with new and trending games. New additions are typically highlighted in the 'Newly Added Games' section on the homepage."
+      },
+      {
+        "id": "section-8",
+        "header": "Are the games suitable for all age groups?",
+        "content": " Yes! We categorize games by appropriate age groups: Kids games (3-8 years), Family games (all ages), Teen games (13-19 years), Adult games (18+ years)."
+      },
+      {
+        "id": "section-9",
+        "header": "Can I suggest a game to be added to the platform?",
+        "content": "Absolutely! We welcome game suggestions from our users. Please use the Contact page to submit your game ideas."
+      },
+      {
+        "id": "section-10",
+        "header": "What browsers are supported?",
+        "content": "Our website works on all modern browsers: Google Chrome, Mozilla Firefox, Safari, Microsoft Edge, Mobile browsers etc."
+      },
+      {
+        "id": "section-11",
+        "header": "Why are some game instruction files not downloading?",
+        "content": "Ensure your browser allows downloads and check your internet connection. If issues persist, try using a different browser or contact our support team."
+      },
+      {
+        "id": "section-12",
+        "header": " How do I choose the right game for my event?",
+        "content": "Consider these factors: Number of participants, Available space (indoor/outdoor), Age group of players, Time available, Materials you have access to etc."
+      },
+      {
+        "id": "section-13",
+        "header": " Can I save games for later reference?",
+        "content": "Currently, you can bookmark games in your browser. We're working on a 'Favorites' feature for future updates."
+      },
+      {
+        "id": "section-14",
+        "header": "Are there games for large groups?",
+        "content": "Yes! Many of our games support large groups (20+ players). Use the player count filter to find games suitable for your group size."
+      },
+      {
+        "id": "section-15",
+        "header": "How can I report a problem with the website?",
+        "content": " Please use the Contact Us page to report any technical issues or bugs. Provide detailed information about the problem for quicker resolution."
+      },
+      {
+        "id": "section-16",
+        "header": " Can I use the game instructions for commercial purposes?",
+        "content": "All content on PlayfulOutings is for personal and educational use. For commercial use, please contact us for permission."
+      },
+      {
+        "id": "section-17",
+        "header": "How can I stay updated with new features?",
+        "content": "Subscribe to our newsletter through the footer section to receive updates about new games, features, and platform improvements."
+      },
+      {
+        "id": "section-18",
+        "header": "Do you offer custom game solutions for events?",
+        "content": "While we primarily provide game information, we can offer customized suggestions for specific events. Contact us with your event details."
+      },
+      {
+        "id": "section-19",
+        "header": "Is there a mobile app available?",
+        "content": "Currently, we're a web-based platform, but we're developing a mobile app for future release. The website is optimized for mobile browsers in the meantime."
+      }
+    ]
+  }
+}

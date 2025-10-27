@@ -1,0 +1,26 @@
+{
+  "future": {
+    "title": "Future Enhancements",
+    "items": [
+      "User accounts and profiles",
+      "Game rating and review system",
+      "Favorite games collection",
+      "Social sharing features",
+      "Video tutorial integration",
+      "Multi-language support",
+      "Progressive Web App (PWA) features",
+      "Offline functionality",
+      "Game event planning tool",
+      "Mobile application development"
+    ]
+  },
+  "support": {
+    "title": "Support & Maintenance",
+    "content": "For technical support or feature requests, contact the development team through the contact page. Regular updates will include new games, bug fixes, and performance improvements.",
+    "documentation": {
+      "version": "1.0",
+      "lastUpdated": "2025",
+      "preparedBy": "PlayfulOutings Development Team"
+    }
+  }
+}

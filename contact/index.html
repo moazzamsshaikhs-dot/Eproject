@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form validation</title>
+    <link rel="icon" href="./images/ChatGPT Image Oct 1, 2025, 05_27_31 PM.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./other-files/contact.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="" class="fade-up">
+            <div class="i">
+                <i class="fas fa-paper-plane"></i>
+            </div>
+
+            <div class="input-group fade-left blur-in">
+                <label for="FullName">FullName</label>
+                <input type="text" name="" id="contact-name" onkeyup="validatename()" placeholder="Enter your name">
+                <span id="name-error"></span>
+            </div>
+
+            <div class="input-group fade-left  blur-in">
+                <label for="Email">Email</label>
+                <input type="email" name="" placeholder="Enter Your Email" id="contact-email" onkeyup="validateemail()">
+                <span id="email-error"></span>
+            </div>
+
+            <div class="input-group fade-right  blur-in">
+                <label for="Password">Password</label>
+                <input type="password" name="" id="Password" placeholder="Enter Your Password"
+                    onkeyup="validatePassword()">
+                <p id="msg"><span id="str"></span></p>
+            </div>
+
+            <div class="input-group fade-right  blur-in">
+                <label for="tel">Phone No.</label>
+                <input type="tel" name="" placeholder="123 456 7890" id="contact-phone" onkeyup="validatephone()">
+                <span id="phone-error"></span>
+            </div>
+
+            <div class="input-group fade-right blur-in">
+                <label for="Message">Your Message</label>
+                <textarea rows="5" placeholder="Enter Your Message" id="contact-message"
+                    onkeyup="validatemessage()"></textarea>
+                <span id="message-error"></span>``
+            </div>
+
+            <button onclick="return validateform()" onkeyup="openpopup()">Submit</button>
+            <span id="submit-error"></span>
+</div>        
+         <div class="location-container fade-up blur-in">
+            <h3>Your Current Location</h3>
+            <div id="location-info" class="location-loading">Getting your location...</div>
+            <iframe id="map-frame" src="" frameborder="0"></iframe>
+        </div>
+            <div class="popup blur-in" id="popup">
+                <img src="./404-tick.png" alt="">
+                <h2>Thank You!</h2>
+                <p>Your details is successfully submitted. Thanks!</p>
+                <button type="submit" class="bh" onclick="closepopup()"><a href="../practice/home.html" onclick="closepopup()" class="aa">OK</a></button>
+            </div>
+        </form>
+        
+    <script src="./other-files/script.js"></script>
+</body>
+
+</html>

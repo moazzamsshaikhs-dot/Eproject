@@ -1,0 +1,35 @@
+{
+  "technical": {
+    "title": "Technical Specifications",
+    "sections": [
+      {
+        "title": "Frontend Technologies",
+        "items": [
+          "HTML5: Semantic markup and modern structure",
+          "CSS3: Advanced styling with Grid, Flexbox, and animations",
+          "JavaScript ES6+: Interactive features and dynamic content",
+          "Font Awesome: Scalable vector icons",
+          "Google Fonts: Roboto font family for better typography"
+        ]
+      },
+      {
+        "title": "Design Features",
+        "items": [
+          "Responsive Design: Mobile-first approach for all screen sizes",
+          "Color Scheme: Professional green and pink accent colors",
+          "Smooth Animations: CSS transitions and hover effects",
+          "Card-based Layout: Modern UI with shadow effects and rounded corners",
+          "Accessibility: WCAG compliant with proper contrast ratios"
+        ]
+      },
+      {
+        "title": "Data Management",
+        "items": [
+          "JSON Data Structure: Organized game information in separate files",
+          "Local Storage: Visitor counter and user preferences",
+          "Dynamic Content Loading: AJAX-based content updates"
+        ]
+      }
+    ]
+  }
+}
