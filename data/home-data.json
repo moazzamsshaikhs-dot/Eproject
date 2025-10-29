@@ -25,23 +25,23 @@
       "images": [
         {"class": "image-1", "title": "More Details",
       "head":"Simon Says","details":"A brilliant game to test listening skills and focus. One player is 'Simon' who gives commands. The trick is to only follow the command if it starts with the phrase 'Simon says.' If you follow a command without 'Simon says,' you're out!",
-       "button":"Show more","href":"../practice-1/index.html","images":"https://www.sheknows.com/wp-content/uploads/2018/12/xj4bi9mbdvwxaceryecj.jpeg"
+       "button":"Show more","href":"./practice-1/index.html","images":"https://www.sheknows.com/wp-content/uploads/2018/12/xj4bi9mbdvwxaceryecj.jpeg"
       },
         {"class": "image-2", "title": "More Details",
       "head":"Jump Rope","details":"A classic and energetic activity where players jump over a swinging rope. It's fantastic for building stamina, coordination, and can be played solo or in a group for fun and fitness.",
-       "button":"Show more","href":"../practice-1/index.html","images":"https://activeforlife.com/img/large/2021/10/kids-skipping-rope.jpg"
+       "button":"Show more","href":"./practice-1/index.html","images":"https://activeforlife.com/img/large/2021/10/kids-skipping-rope.jpg"
       },
         {"class": "image-3", "title": "More Details",
       "head":"Basketball","details":"A dynamic sport where teams shoot a ball through a hoop to score points.",
-       "button":"Show more","href":"../practice-1/index.html","images":"https://plus.unsplash.com/premium_photo-1685366454253-cb705836c5a8?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8b3V0ZG9vciUyMGdhbWVzfGVufDB8fDB8fHww"
+       "button":"Show more","href":"./practice-1/index.html","images":"https://plus.unsplash.com/premium_photo-1685366454253-cb705836c5a8?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8b3V0ZG9vciUyMGdhbWVzfGVufDB8fDB8fHww"
       },
       {"class": "image-4", "title": "More Details",
       "head":"Chess","details":" A two-player strategy board game where the goal is to checkmate the opponent’s king.",
-       "button":"Show more","href":"../practice-1/index.html","images":"https://png.pngtree.com/png-clipart/20241119/original/pngtree-gold-color-chess-pieces-png-image_17239433.png"
+       "button":"Show more","href":"./practice-1/index.html","images":"https://png.pngtree.com/png-clipart/20241119/original/pngtree-gold-color-chess-pieces-png-image_17239433.png"
       },
        {"class": "image-5", "title": "More Details",
       "head":"Giant Board Games","details":"Create oversized versions of popular board games using chalk on pavement or large mats on grass.",
-       "button":"Show more","href":"../practice-1/index.html","images":"https://m.media-amazon.com/images/I/81r6AGb+1rL._AC_UF1000,1000_QL80_.jpg"
+       "button":"Show more","href":"./practice-1/index.html","images":"https://m.media-amazon.com/images/I/81r6AGb+1rL._AC_UF1000,1000_QL80_.jpg"
       }
       ]
     }
@@ -51,27 +51,27 @@
       "images": [
         {"class": "image-1", "title": "More Details",
       "head":"Giant Board Games","details":"Create oversized versions of popular board games using chalk on pavement or large mats on grass.",
-       "button":"Show more","href":"../practice-1/index.html","images":"https://m.media-amazon.com/images/I/81r6AGb+1rL._AC_UF1000,1000_QL80_.jpg"
+       "button":"Show more","href":"./practice-1/index.html","images":"https://m.media-amazon.com/images/I/81r6AGb+1rL._AC_UF1000,1000_QL80_.jpg"
       },
         {"class": "image-2", "title": "More Details",
       "head":"Throwball","details":"A dynamic team game similar to volleyball but played with a larger ball and without spiking. The focus is on throwing, catching, and teamwork, making it inclusive and enjoyable.",
-       "button":"Show more","href":"../practice-1/index.html","images":"https://i.pinimg.com/736x/ee/f8/80/eef880bf3dd2dd6e1a03e3a2d7a5404c.jpg"
+       "button":"Show more","href":"./practice-1/index.html","images":"https://i.pinimg.com/736x/ee/f8/80/eef880bf3dd2dd6e1a03e3a2d7a5404c.jpg"
       },
         {"class": "image-3", "title": "More Details",
       "head":"Red Light, Green Light","details":"A classic game of sudden stops and quick bursts of speed that tests players' reflexes, listening skills, and ability to control their movements. One player acts as the 'Traffic Light' while the others are the 'Cars' trying to reach the finish line.",
-       "button":"Show more","href":"../practice-1/index.html","images":"https://i0.wp.com/gameranx.com/wp-content/uploads/2025/06/image-39.png?fit=800%2C450&quality=80&ssl=1"
+       "button":"Show more","href":"./practice-1/index.html","images":"https://i0.wp.com/gameranx.com/wp-content/uploads/2025/06/image-39.png?fit=800%2C450&quality=80&ssl=1"
       },
         {"class": "image-4", "title": "More Details",
       "head":"Basketball","details":"A dynamic sport where teams shoot a ball through a hoop to score points.",
-       "button":"Show more","href":"../practice-1/index.html","images":"https://plus.unsplash.com/premium_photo-1685366454253-cb705836c5a8?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8b3V0ZG9vciUyMGdhbWVzfGVufDB8fDB8fHww"
+       "button":"Show more","href":"./practice-1/index.html","images":"https://plus.unsplash.com/premium_photo-1685366454253-cb705836c5a8?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8b3V0ZG9vciUyMGdhbWVzfGVufDB8fDB8fHww"
       },
         {"class": "image-5", "title": "More Details",
       "head":"Foosball","details":"A competitive table game where players control rows of miniature footballers mounted on rods to kick a ball into the opponent’s goal.",
-       "button":"Show more","href":"../practice-1/index.html","images":"https://static.vecteezy.com/system/resources/previews/047/833/299/non_2x/foosball-table-isolated-on-transparent-background-free-png.png"
+       "button":"Show more","href":"./practice-1/index.html","images":"https://static.vecteezy.com/system/resources/previews/047/833/299/non_2x/foosball-table-isolated-on-transparent-background-free-png.png"
       },
         {"class": "image-6", "title": "More Details",
       "head":"Puzzle Solving","details":"Jigsaw puzzles, Sudoku, or crossword puzzles that stimulate the mind.",
-       "button":"Show more","href":"../practice-1/index.html","images":"https://i.ytimg.com/vi/I69pd-oNEKc/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLB_HR85YpQWaSy-617ZhZt43wddiQ"
+       "button":"Show more","href":"./practice-1/index.html","images":"https://i.ytimg.com/vi/I69pd-oNEKc/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLB_HR85YpQWaSy-617ZhZt43wddiQ"
       }
       ]
     }
