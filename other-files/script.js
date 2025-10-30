@@ -195,7 +195,8 @@ function showLocationPermissionPrompt() {
             left: 50%;
             transform: translate(-50%, -50%);
             background: linear-gradient(-45deg, #376e6f,#1c3334);
-            padding: 20px;
+            width:40rem;
+            padding: 2.5rem 1.5rem;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0,0,0,0.3);
             z-index: 1000;
