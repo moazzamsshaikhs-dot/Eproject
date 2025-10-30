@@ -285,7 +285,7 @@
  /* Show message when no results */
  .no-results {
      text-align: center;
-     font-size: 2.5rem;
+     font-size: 2rem;
      margin-top: 2rem;
      color: var(--red--color);
      display: none;
@@ -295,7 +295,7 @@
 
  .welcome-message {
      text-align: center;
-     font-size: 2.5rem;
+     font-size: 2rem;
      margin-top: 2rem;
      color: var(--light-green-color);
      width: 100%;
@@ -576,6 +576,12 @@ footer {
      .container {
          padding: 1rem;
      }
+     .welcome-message{
+        font-size: 1.6rem;
+    }
+    .no-results{
+         font-size: 1.6rem;
+     }
  }
 
 
@@ -609,5 +615,11 @@ footer {
      }
      .imag{
         display: none;
+    }
+    .welcome-message{
+        font-size: 1.4rem;
+    }
+    .no-results{
+        font-size: 1.4rem;
     }
  }
